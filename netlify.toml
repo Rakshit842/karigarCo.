@@ -1,0 +1,14 @@
+[build]
+  base = "frontend"
+  # node_modules in the repo were installed on macOS; reinstall for Linux
+  command = "rm -rf node_modules && npm ci --include=dev && npx vite build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Single-page app: let React Router handle all client-side routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
