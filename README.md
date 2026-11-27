@@ -357,7 +357,7 @@ npm run build
 npm start
 ```
 
-Required environment: Set all `DATABASE_URL`, `JWT_SECRET`, etc.
+Required environment: Set all `DATABASE_URL`, `JWT_SECRET`, etc. Run `npm run db:migrate:deploy` against the production database before starting the backend; this applies the checked-in Prisma migrations and creates the required tables.
 
 ### Frontend (Vercel / Netlify)
 
