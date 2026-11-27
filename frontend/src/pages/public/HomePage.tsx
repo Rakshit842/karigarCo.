@@ -12,7 +12,7 @@ const categories = [
   { name: 'Brass & Metal', slug: 'metal-crafts', emoji: '🔔', image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80' },
   { name: 'Home Décor', slug: 'home-decor', emoji: '🏠', image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80' },
   { name: 'Handwoven', slug: 'handwoven', emoji: '🧺', image: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3?w=400&q=80' },
-  { name: 'Art & Wall Décor', slug: 'art-wall-decor', emoji: '🎨', image: 'https://images.unsplash.com/photo-1579762715459-bfa3fb065a01?w=400&q=80' },
+  { name: 'Art & Wall Décor', slug: 'art-wall-decor', emoji: '🎨', image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&q=80' },
 ];
 
 const collections = [

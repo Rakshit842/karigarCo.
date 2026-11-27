@@ -65,12 +65,14 @@ async function main() {
     }),
     prisma.category.upsert({
       where: { slug: 'art-wall-decor' },
-      update: {},
+      update: {
+        imageUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800',
+      },
       create: {
         name: 'Art & Wall Décor',
         slug: 'art-wall-decor',
         description: 'Regional paintings, prints, and wall hangings by Indian artists',
-        imageUrl: 'https://images.unsplash.com/photo-1579762715459-bfa3fb065a01?w=800',
+        imageUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800',
         sortOrder: 6,
       },
     }),
@@ -292,7 +294,7 @@ async function main() {
       craftOrigin: 'Jagdalpur, Chhattisgarh',
       tags: ['warli', 'wall art', 'tribal art', 'wood panel', 'traditional'],
       categoryId: artCategory.id,
-      imageUrl: 'https://images.unsplash.com/photo-1579762715459-bfa3fb065a01?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800',
     },
   ];
 
