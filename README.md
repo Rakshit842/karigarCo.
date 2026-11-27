@@ -368,6 +368,7 @@ npm run build
 ```
 
 Set `VITE_API_URL` to your production backend URL.
+Set the backend's `FRONTEND_URL` environment variable to `https://karigar-co.vercel.app` so CORS and email links use the deployed frontend.
 
 ### Database
 

@@ -36,7 +36,7 @@ app.use((0, helmet_1.default)({
 }));
 // CORS
 app.use((0, cors_1.default)({
-    origin: config_1.config.frontendUrl,
+    origin: [config_1.config.frontendUrl, 'https://karigar-co.vercel.app', 'http://localhost:5173'],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],

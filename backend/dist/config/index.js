@@ -14,7 +14,7 @@ exports.config = {
     jwtExpiresIn: process.env.JWT_EXPIRES_IN || '7d',
     jwtRefreshSecret: process.env.JWT_REFRESH_SECRET || 'fallback_refresh_secret',
     jwtRefreshExpiresIn: process.env.JWT_REFRESH_EXPIRES_IN || '30d',
-    frontendUrl: process.env.FRONTEND_URL || 'http://localhost:5173',
+    frontendUrl: process.env.FRONTEND_URL || 'https://karigar-co.vercel.app',
     cloudinary: {
         cloudName: process.env.CLOUDINARY_CLOUD_NAME || '',
         apiKey: process.env.CLOUDINARY_API_KEY || '',
